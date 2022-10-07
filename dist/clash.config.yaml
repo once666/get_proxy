@@ -4130,303 +4130,377 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱_NL_荷兰_24@4
-  network: tcp
-  port: 40443
-  server: 94.177.8.87
-  tls: true
-  type: vmess
-  uuid: 7ED6C76A-277E-1D03-2C6F-48B728899686
-- name: 🇨🇳_CN_中国->🇩🇪_DE_德国_1_24@5
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 33481
-  server: hkc-zf.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇨🇭_CH_瑞士_24@6
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  server: 185.126.116.125
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦_CA_加拿大_24@7
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 134.195.196.85
-  type: ss
-- name: 🇯🇵_JP_日本_1_24@8
-  password: iyinglong
-  port: 443
-  server: 18.179.136.120
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇭🇰_HK_香港->🇺🇸_US_美国_1_24@9
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20788
-  server: azgy001.xibai6.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇭🇰_HK_香港->🇹🇼_TW_台湾_24@10
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20769
-  server: 20.205.63.249
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇬🇧_GB_英国_1_24@12
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 36419
-  server: yg.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳_CN_中国->🇹🇷_TR_土耳其_24@13
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 30606
-  server: trq-zf.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_24@14
-  network: none
-  port: 53525
-  server: hg.cycfly.xyz
-  type: vmess
-  uuid: 9c7daea1-ef4b-403d-8cb9-ceed7d526bba
 - cipher: aes-128-cfb
-  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_1_24@15
+  country: 🇨🇳 CN
+  name: 🇨🇳 CN 3_24@2
   password: QazEdcTgb159@$*
-  port: 11045
-  server: 14.29.124.174
+  port: 24006
+  server: 14.29.124.168
   type: ss
-- name: 🇺🇸_US_美国_3_24@16
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 26972
-  server: usc-zf.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇺🇸_US_美国_4_24@17
-  password: iyinglong
-  port: 443
-  server: 54.165.2.244
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇫🇷_FR_法国_1_24@18
-  password: iyinglong
-  port: 443
-  server: 15.237.116.79
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_GB_英国_2_24@20
-  network: tcp
-  port: 40443
-  server: 185.194.30.40
-  tls: true
-  type: vmess
-  uuid: B6C76F8A-77ED-F562-654E-59F997F58426
-- name: 🇰🇷_KR_韩国_3_24@23
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 34210
-  server: hanguo.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_4_24@24
-  password: QazEdcTgb159@$*
-  port: 11049
-  server: 14.29.124.174
-  type: ss
-- name: 🇭🇰_HK_香港->🇺🇸_US_美国_3_24@25
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20787
-  server: azgy001.xibai6.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇵🇱_PL_波兰_24@26
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 43505
-  server: bl.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: default_name_24@27
-  network: tcp
-  port: 40443
-  server: 103.173.178.110
-  tls: true
-  type: vmess
-  uuid: 5ADDADF4-E05B-65E6-A409-E08CEA8826DF
-- name: 🇯🇵_JP_日本_2_24@28
-  password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428
-  port: 443
-  server: musashino.freetrade.link
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇺🇸_US_美国->🇯🇵_JP_日本_24@30
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20803
-  server: 20.239.188.10
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇺🇸_US_美国_5_24@31
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20769
-  server: 20.239.188.10
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳_CN_中国->🇻🇳_VN_越南_24@33
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 40375
-  server: yn-zf.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳_CN_中国->🇩🇪_DE_德国_2_24@38
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 22481
-  server: szdx-anhb.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-cfb
-  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_5_24@40
-  password: QazEdcTgb159@$*
-  port: 11046
-  server: 14.29.124.174
-  type: ss
-- name: 🇫🇷_FR_法国_2_24@44
-  password: iyinglong
-  port: 443
-  server: 15.236.218.230
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇦🇷_AR_阿根廷_24@45
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 24540
-  server: agt-zf.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳_CN_中国->🇪🇸_ES_西班牙_24@46
-  password: f01a7126-eb1e-38be-bc48-1085c91839b3
-  port: 48501
-  server: xby-zf.jiashumao.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇺🇸_US_美国_13_24@47
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  port: 20726
-  server: 20.239.188.10
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+- cipher: chacha20-ietf
+  country: 🇨🇳 TW
+  name: 🇨🇳 CN 4_24@3
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 564
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 116.162.120.25
+  type: ssr
 - country: 🇨🇳 TW
-  name: 🇨🇳 TW 3_25@2
-  password: 2a9c908c-3f21-411d-8163-ebe0726ef8c7
+  name: 🇨🇳 TW 5_24@4
+  password: 7c877b3a-5fa0-47e7-ae3e-8e045788569b
   port: 443
   server: 1002tw01.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf
+  country: 🇨🇳 TW
+  name: 🇨🇳 CN 6_24@5
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 568
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 116.162.120.25
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇨🇳 TW
+  name: 🇨🇳 CN 7_24@6
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 116.162.120.25
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇨🇳 TW
+  name: 🇨🇳 CN 8_24@7
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 565
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 116.162.120.25
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇨🇳 TW
+  name: 🇨🇳 CN 9_24@8
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 561
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 116.162.120.25
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇨🇳 TW
+  name: 🇨🇳 CN 10_24@9
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 563
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 116.162.120.25
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: 🇨🇳 CN 11_24@10
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 561
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 183.232.141.119
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: 🇨🇳 CN 12_24@11
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 183.232.141.107
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: 🇨🇳 CN 13_24@12
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+  password: Fhbe0z
+  port: 11845
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  server: guangzhouddns.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: 🇨🇳 CN 14_24@13
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 562
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 116.162.120.24
+  type: ssr
 - country: 🇭🇰 HK
-  name: 🇨🇳 HK 4_25@3
-  password: 7rfcbuZdkU
-  port: 12425
-  server: realhk-1.tiktokcdn.sbs
+  name: 🇨🇳 TW 16_24@15
+  password: 6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca
+  port: 49001
+  server: 165.154.253.15
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf
+  country: 🇯🇵 JP
+  name: 🇨🇳 CN 17_24@16
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+  password: Fhbe0z
+  port: 11424
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  server: liaoningddns.xyz
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇰🇷 KR
+  name: 🇨🇳 CN 18_24@17
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 565
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 183.232.141.114
+  type: ssr
 - country: 🇭🇰 HK
-  name: 🇨🇳 HK 5_25@4
-  password: 2a9c908c-3f21-411d-8163-ebe0726ef8c7
-  port: 443
-  server: 1002hk1326.tfzhc.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇰🇷 KR
-  name: 🇰🇷 KR 7_25@6
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: 146.56.189.146
+  name: 🇨🇳 TW 19_24@18
+  password: 6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca
+  port: 49011
+  server: 165.154.253.15
   skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🇸🇬 SG
-  name: 🇸🇬 SG 8_25@7
-  password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
-  port: 443
-  server: 159.223.89.239
+  name: 🇸🇬 SG 20_24@19
+  password: 7c877b3a-5fa0-47e7-ae3e-8e045788569b
+  port: 44393
+  server: 924hk.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🇸🇬 SG
-  name: 🇸🇬 SG 10_25@9
-  password: 2a9c908c-3f21-411d-8163-ebe0726ef8c7
+  name: 🇨🇳 CN 22_24@21
+  password: 4f308591-17f7-3d0f-8407-67f0c29ef27b
+  port: 14687
+  server: xjpa-zf.jiashumao.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇸🇬 SG
+  name: 🇸🇬 SG 23_24@22
+  password: 7c877b3a-5fa0-47e7-ae3e-8e045788569b
   port: 443
   server: 102hk.tfzhc.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: 🇸🇬 SG
-  name: 🇸🇬 SG 12_25@11
-  password: 2a9c908c-3f21-411d-8163-ebe0726ef8c7
-  port: 443
-  server: 1002sg.tfzhc.top
+- country: 🇯🇵 JP
+  name: 🇯🇵 JP 24_24@23
+  password: P9qGW38zz7
+  port: 43857
+  server: nice-jp03.tiktokcdn.buzz
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-128-cfb
-  country: 🇨🇳 TW
-  name: 🇨🇳 CN 13_25@12
-  password: QazEdcTgb159@$*
-  port: 24006
-  server: 14.29.124.168
-  type: ss
-- country: 🇺🇸 US
-  name: 🇺🇸 US 15_25@14
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hass.win
+- cipher: chacha20-ietf
+  country: 🇷🇺 RU
+  name: 🇨🇳 CN 25_24@24
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+  password: mblank1port
+  port: 560
+  protocol: auth_aes128_md5
+  protocol-param: 53923:hjgjuy6t655jjg
+  server: 116.162.120.23
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇷🇺 RU
+  name: 🇨🇳 CN 26_24@25
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 562
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 116.162.120.23
+  type: ssr
+- country: 🇱🇺 LU
+  name: 🇨🇳 TW 27_24@26
+  password: 562c4c98-00c9-4037-a966-c7fc6a81367c
+  port: 49010
+  server: 165.154.253.15
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf
+  country: 🇸🇬 SG
+  name: 🇨🇳 CN 28_24@27
+  obfs: tls1.2_ticket_auth
+  obfs-param: 018ab12023.microsoft.com
+  password: Fhbe0z
+  port: 11422
+  protocol: auth_aes128_sha1
+  protocol-param: 26786:r3uWHp
+  server: liaoningddns.xyz
+  type: ssr
 - cipher: aes-128-cfb
   country: 🇨🇳 TW
-  name: 🇨🇳 CN 16_25@15
+  name: 🇨🇳 CN 29_24@28
   password: QazEdcTgb159@$*
   port: 24004
   server: 14.29.124.168
   type: ss
-- cipher: aes-256-cfb
-  country: 🇭🇰 HK
-  name: 🇨🇳 CN 17_25@16
-  password: RsDk3peCSuo76B68
-  port: 10068
-  server: 180.101.193.226
-  type: ss
+- country: 🇯🇵 JP
+  name: 🇨🇳 CN 30_24@29
+  password: 4f308591-17f7-3d0f-8407-67f0c29ef27b
+  port: 20479
+  server: jpb-zf.jiashumao.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇺🇸 US
+  name: 🇨🇳 CN 31_24@30
+  obfs: plain
+  password: mblank1port
+  port: 565
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 223.166.145.153
+  type: ssr
+- cipher: chacha20-ietf
+  country: 🇺🇸 US
+  name: 🇨🇳 CN 32_24@31
+  obfs: plain
+  obfs-param: dC5tZS92cG5oYXQ
+  password: mblank1port
+  port: 569
+  protocol: auth_aes128_md5
+  protocol-param: 53925:hjgjuy6t655jjg
+  server: 223.166.145.153
+  type: ssr
+- country: 🇺🇸 US
+  name: 🇨🇳 CN 34_24@33
+  password: 4f308591-17f7-3d0f-8407-67f0c29ef27b
+  port: 15123
+  server: hkf-zf.jiashumao.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇨🇳 TW 35_24@34
+  password: 562c4c98-00c9-4037-a966-c7fc6a81367c
+  port: 49002
+  server: 165.154.253.15
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇨🇳 CN 36_24@35
+  password: d02058f4f819dced
+  port: 3381
+  server: 116.129.253.134
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇨🇳 TW 37_24@36
+  password: 562c4c98-00c9-4037-a966-c7fc6a81367c
+  port: 49004
+  server: 165.154.253.15
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇨🇳 TW 38_24@37
+  password: 562c4c98-00c9-4037-a966-c7fc6a81367c
+  port: 49003
+  server: 165.154.253.15
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US 39_24@38
+  password: 6e1f9a92-be51-4f65-9aa6-ff3a54b4ab42
+  port: 53316
+  server: 116.fastea.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇺🇸 US
+  name: 🇨🇳 CN 40_24@39
+  obfs: plain
+  obfs-param: ZEM1dFpTOTJjRzVvWVhR
+  password: mblank1port
+  port: 610
+  protocol: auth_aes128_md5
+  protocol-param: 53923:hjgjuy6t655jjg
+  server: 116.162.120.23
+  type: ssr
+- country: 🇺🇸 US
+  name: 🇨🇳 TW 41_24@40
+  password: 6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca
+  port: 49005
+  server: 165.154.253.15
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇯🇵 JP
+  name: 🇨🇳 TW 42_24@41
+  password: 6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca
+  port: 49006
+  server: 165.154.253.15
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇭🇰 HK
+  name: 🇨🇳 CN 45_24@44
+  password: 79745894-044c-3298-a893-bbfcb6b24a2c
+  port: 19702
+  server: pull-cache-lu01.xyx-xylo.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇯🇵 JP
+  name: 🇨🇳 TW 46_24@45
+  password: 6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca
+  port: 49007
+  server: 165.154.253.15
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇨🇳 CN 47_24@46
+  password: d4e41ff772c7fd45
+  port: 3381
+  server: 116.129.254.29
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -4950,47 +5024,46 @@ proxy-groups:
   - 🇮🇷_IR_伊朗->🇳🇱_NL_荷兰_23@46
   - 🇺🇸_US_美国->🇯🇵_JP_日本_23@48
   - 🇺🇸_US_美国_15_23@49
-  - 🇳🇱_NL_荷兰_24@4
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1_24@5
-  - 🇨🇭_CH_瑞士_24@6
-  - 🇨🇦_CA_加拿大_24@7
-  - 🇯🇵_JP_日本_1_24@8
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_24@9
-  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_24@10
-  - 🇬🇧_GB_英国_1_24@12
-  - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_24@13
-  - 🇺🇸_US_美国_2_24@14
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_24@15
-  - 🇺🇸_US_美国_3_24@16
-  - 🇺🇸_US_美国_4_24@17
-  - 🇫🇷_FR_法国_1_24@18
-  - 🇬🇧_GB_英国_2_24@20
-  - 🇰🇷_KR_韩国_3_24@23
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_4_24@24
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_24@25
-  - 🇵🇱_PL_波兰_24@26
-  - default_name_24@27
-  - 🇯🇵_JP_日本_2_24@28
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_24@30
-  - 🇺🇸_US_美国_5_24@31
-  - 🇨🇳_CN_中国->🇻🇳_VN_越南_24@33
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_2_24@38
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_5_24@40
-  - 🇫🇷_FR_法国_2_24@44
-  - 🇦🇷_AR_阿根廷_24@45
-  - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_24@46
-  - 🇺🇸_US_美国_13_24@47
-  - 🇨🇳 TW 3_25@2
-  - 🇨🇳 HK 4_25@3
-  - 🇨🇳 HK 5_25@4
-  - 🇰🇷 KR 7_25@6
-  - 🇸🇬 SG 8_25@7
-  - 🇸🇬 SG 10_25@9
-  - 🇸🇬 SG 12_25@11
-  - 🇨🇳 CN 13_25@12
-  - 🇺🇸 US 15_25@14
-  - 🇨🇳 CN 16_25@15
-  - 🇨🇳 CN 17_25@16
+  - 🇨🇳 CN 3_24@2
+  - 🇨🇳 CN 4_24@3
+  - 🇨🇳 TW 5_24@4
+  - 🇨🇳 CN 6_24@5
+  - 🇨🇳 CN 7_24@6
+  - 🇨🇳 CN 8_24@7
+  - 🇨🇳 CN 9_24@8
+  - 🇨🇳 CN 10_24@9
+  - 🇨🇳 CN 11_24@10
+  - 🇨🇳 CN 12_24@11
+  - 🇨🇳 CN 13_24@12
+  - 🇨🇳 CN 14_24@13
+  - 🇨🇳 TW 16_24@15
+  - 🇨🇳 CN 17_24@16
+  - 🇨🇳 CN 18_24@17
+  - 🇨🇳 TW 19_24@18
+  - 🇸🇬 SG 20_24@19
+  - 🇨🇳 CN 22_24@21
+  - 🇸🇬 SG 23_24@22
+  - 🇯🇵 JP 24_24@23
+  - 🇨🇳 CN 25_24@24
+  - 🇨🇳 CN 26_24@25
+  - 🇨🇳 TW 27_24@26
+  - 🇨🇳 CN 28_24@27
+  - 🇨🇳 CN 29_24@28
+  - 🇨🇳 CN 30_24@29
+  - 🇨🇳 CN 31_24@30
+  - 🇨🇳 CN 32_24@31
+  - 🇨🇳 CN 34_24@33
+  - 🇨🇳 TW 35_24@34
+  - 🇨🇳 CN 36_24@35
+  - 🇨🇳 TW 37_24@36
+  - 🇨🇳 TW 38_24@37
+  - 🇺🇸 US 39_24@38
+  - 🇨🇳 CN 40_24@39
+  - 🇨🇳 TW 41_24@40
+  - 🇨🇳 TW 42_24@41
+  - 🇨🇳 CN 45_24@44
+  - 🇨🇳 TW 46_24@45
+  - 🇨🇳 CN 47_24@46
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -5513,47 +5586,46 @@ proxy-groups:
   - 🇮🇷_IR_伊朗->🇳🇱_NL_荷兰_23@46
   - 🇺🇸_US_美国->🇯🇵_JP_日本_23@48
   - 🇺🇸_US_美国_15_23@49
-  - 🇳🇱_NL_荷兰_24@4
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1_24@5
-  - 🇨🇭_CH_瑞士_24@6
-  - 🇨🇦_CA_加拿大_24@7
-  - 🇯🇵_JP_日本_1_24@8
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_24@9
-  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_24@10
-  - 🇬🇧_GB_英国_1_24@12
-  - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_24@13
-  - 🇺🇸_US_美国_2_24@14
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_24@15
-  - 🇺🇸_US_美国_3_24@16
-  - 🇺🇸_US_美国_4_24@17
-  - 🇫🇷_FR_法国_1_24@18
-  - 🇬🇧_GB_英国_2_24@20
-  - 🇰🇷_KR_韩国_3_24@23
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_4_24@24
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_24@25
-  - 🇵🇱_PL_波兰_24@26
-  - default_name_24@27
-  - 🇯🇵_JP_日本_2_24@28
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_24@30
-  - 🇺🇸_US_美国_5_24@31
-  - 🇨🇳_CN_中国->🇻🇳_VN_越南_24@33
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_2_24@38
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_5_24@40
-  - 🇫🇷_FR_法国_2_24@44
-  - 🇦🇷_AR_阿根廷_24@45
-  - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_24@46
-  - 🇺🇸_US_美国_13_24@47
-  - 🇨🇳 TW 3_25@2
-  - 🇨🇳 HK 4_25@3
-  - 🇨🇳 HK 5_25@4
-  - 🇰🇷 KR 7_25@6
-  - 🇸🇬 SG 8_25@7
-  - 🇸🇬 SG 10_25@9
-  - 🇸🇬 SG 12_25@11
-  - 🇨🇳 CN 13_25@12
-  - 🇺🇸 US 15_25@14
-  - 🇨🇳 CN 16_25@15
-  - 🇨🇳 CN 17_25@16
+  - 🇨🇳 CN 3_24@2
+  - 🇨🇳 CN 4_24@3
+  - 🇨🇳 TW 5_24@4
+  - 🇨🇳 CN 6_24@5
+  - 🇨🇳 CN 7_24@6
+  - 🇨🇳 CN 8_24@7
+  - 🇨🇳 CN 9_24@8
+  - 🇨🇳 CN 10_24@9
+  - 🇨🇳 CN 11_24@10
+  - 🇨🇳 CN 12_24@11
+  - 🇨🇳 CN 13_24@12
+  - 🇨🇳 CN 14_24@13
+  - 🇨🇳 TW 16_24@15
+  - 🇨🇳 CN 17_24@16
+  - 🇨🇳 CN 18_24@17
+  - 🇨🇳 TW 19_24@18
+  - 🇸🇬 SG 20_24@19
+  - 🇨🇳 CN 22_24@21
+  - 🇸🇬 SG 23_24@22
+  - 🇯🇵 JP 24_24@23
+  - 🇨🇳 CN 25_24@24
+  - 🇨🇳 CN 26_24@25
+  - 🇨🇳 TW 27_24@26
+  - 🇨🇳 CN 28_24@27
+  - 🇨🇳 CN 29_24@28
+  - 🇨🇳 CN 30_24@29
+  - 🇨🇳 CN 31_24@30
+  - 🇨🇳 CN 32_24@31
+  - 🇨🇳 CN 34_24@33
+  - 🇨🇳 TW 35_24@34
+  - 🇨🇳 CN 36_24@35
+  - 🇨🇳 TW 37_24@36
+  - 🇨🇳 TW 38_24@37
+  - 🇺🇸 US 39_24@38
+  - 🇨🇳 CN 40_24@39
+  - 🇨🇳 TW 41_24@40
+  - 🇨🇳 TW 42_24@41
+  - 🇨🇳 CN 45_24@44
+  - 🇨🇳 TW 46_24@45
+  - 🇨🇳 CN 47_24@46
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -6080,47 +6152,46 @@ proxy-groups:
   - 🇮🇷_IR_伊朗->🇳🇱_NL_荷兰_23@46
   - 🇺🇸_US_美国->🇯🇵_JP_日本_23@48
   - 🇺🇸_US_美国_15_23@49
-  - 🇳🇱_NL_荷兰_24@4
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1_24@5
-  - 🇨🇭_CH_瑞士_24@6
-  - 🇨🇦_CA_加拿大_24@7
-  - 🇯🇵_JP_日本_1_24@8
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_24@9
-  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_24@10
-  - 🇬🇧_GB_英国_1_24@12
-  - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_24@13
-  - 🇺🇸_US_美国_2_24@14
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_24@15
-  - 🇺🇸_US_美国_3_24@16
-  - 🇺🇸_US_美国_4_24@17
-  - 🇫🇷_FR_法国_1_24@18
-  - 🇬🇧_GB_英国_2_24@20
-  - 🇰🇷_KR_韩国_3_24@23
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_4_24@24
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_24@25
-  - 🇵🇱_PL_波兰_24@26
-  - default_name_24@27
-  - 🇯🇵_JP_日本_2_24@28
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_24@30
-  - 🇺🇸_US_美国_5_24@31
-  - 🇨🇳_CN_中国->🇻🇳_VN_越南_24@33
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_2_24@38
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_5_24@40
-  - 🇫🇷_FR_法国_2_24@44
-  - 🇦🇷_AR_阿根廷_24@45
-  - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_24@46
-  - 🇺🇸_US_美国_13_24@47
-  - 🇨🇳 TW 3_25@2
-  - 🇨🇳 HK 4_25@3
-  - 🇨🇳 HK 5_25@4
-  - 🇰🇷 KR 7_25@6
-  - 🇸🇬 SG 8_25@7
-  - 🇸🇬 SG 10_25@9
-  - 🇸🇬 SG 12_25@11
-  - 🇨🇳 CN 13_25@12
-  - 🇺🇸 US 15_25@14
-  - 🇨🇳 CN 16_25@15
-  - 🇨🇳 CN 17_25@16
+  - 🇨🇳 CN 3_24@2
+  - 🇨🇳 CN 4_24@3
+  - 🇨🇳 TW 5_24@4
+  - 🇨🇳 CN 6_24@5
+  - 🇨🇳 CN 7_24@6
+  - 🇨🇳 CN 8_24@7
+  - 🇨🇳 CN 9_24@8
+  - 🇨🇳 CN 10_24@9
+  - 🇨🇳 CN 11_24@10
+  - 🇨🇳 CN 12_24@11
+  - 🇨🇳 CN 13_24@12
+  - 🇨🇳 CN 14_24@13
+  - 🇨🇳 TW 16_24@15
+  - 🇨🇳 CN 17_24@16
+  - 🇨🇳 CN 18_24@17
+  - 🇨🇳 TW 19_24@18
+  - 🇸🇬 SG 20_24@19
+  - 🇨🇳 CN 22_24@21
+  - 🇸🇬 SG 23_24@22
+  - 🇯🇵 JP 24_24@23
+  - 🇨🇳 CN 25_24@24
+  - 🇨🇳 CN 26_24@25
+  - 🇨🇳 TW 27_24@26
+  - 🇨🇳 CN 28_24@27
+  - 🇨🇳 CN 29_24@28
+  - 🇨🇳 CN 30_24@29
+  - 🇨🇳 CN 31_24@30
+  - 🇨🇳 CN 32_24@31
+  - 🇨🇳 CN 34_24@33
+  - 🇨🇳 TW 35_24@34
+  - 🇨🇳 CN 36_24@35
+  - 🇨🇳 TW 37_24@36
+  - 🇨🇳 TW 38_24@37
+  - 🇺🇸 US 39_24@38
+  - 🇨🇳 CN 40_24@39
+  - 🇨🇳 TW 41_24@40
+  - 🇨🇳 TW 42_24@41
+  - 🇨🇳 CN 45_24@44
+  - 🇨🇳 TW 46_24@45
+  - 🇨🇳 CN 47_24@46
   type: select
 - name: 📲 电报信息
   proxies:
@@ -6644,47 +6715,46 @@ proxy-groups:
   - 🇮🇷_IR_伊朗->🇳🇱_NL_荷兰_23@46
   - 🇺🇸_US_美国->🇯🇵_JP_日本_23@48
   - 🇺🇸_US_美国_15_23@49
-  - 🇳🇱_NL_荷兰_24@4
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1_24@5
-  - 🇨🇭_CH_瑞士_24@6
-  - 🇨🇦_CA_加拿大_24@7
-  - 🇯🇵_JP_日本_1_24@8
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_24@9
-  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_24@10
-  - 🇬🇧_GB_英国_1_24@12
-  - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_24@13
-  - 🇺🇸_US_美国_2_24@14
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_24@15
-  - 🇺🇸_US_美国_3_24@16
-  - 🇺🇸_US_美国_4_24@17
-  - 🇫🇷_FR_法国_1_24@18
-  - 🇬🇧_GB_英国_2_24@20
-  - 🇰🇷_KR_韩国_3_24@23
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_4_24@24
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_24@25
-  - 🇵🇱_PL_波兰_24@26
-  - default_name_24@27
-  - 🇯🇵_JP_日本_2_24@28
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_24@30
-  - 🇺🇸_US_美国_5_24@31
-  - 🇨🇳_CN_中国->🇻🇳_VN_越南_24@33
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_2_24@38
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_5_24@40
-  - 🇫🇷_FR_法国_2_24@44
-  - 🇦🇷_AR_阿根廷_24@45
-  - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_24@46
-  - 🇺🇸_US_美国_13_24@47
-  - 🇨🇳 TW 3_25@2
-  - 🇨🇳 HK 4_25@3
-  - 🇨🇳 HK 5_25@4
-  - 🇰🇷 KR 7_25@6
-  - 🇸🇬 SG 8_25@7
-  - 🇸🇬 SG 10_25@9
-  - 🇸🇬 SG 12_25@11
-  - 🇨🇳 CN 13_25@12
-  - 🇺🇸 US 15_25@14
-  - 🇨🇳 CN 16_25@15
-  - 🇨🇳 CN 17_25@16
+  - 🇨🇳 CN 3_24@2
+  - 🇨🇳 CN 4_24@3
+  - 🇨🇳 TW 5_24@4
+  - 🇨🇳 CN 6_24@5
+  - 🇨🇳 CN 7_24@6
+  - 🇨🇳 CN 8_24@7
+  - 🇨🇳 CN 9_24@8
+  - 🇨🇳 CN 10_24@9
+  - 🇨🇳 CN 11_24@10
+  - 🇨🇳 CN 12_24@11
+  - 🇨🇳 CN 13_24@12
+  - 🇨🇳 CN 14_24@13
+  - 🇨🇳 TW 16_24@15
+  - 🇨🇳 CN 17_24@16
+  - 🇨🇳 CN 18_24@17
+  - 🇨🇳 TW 19_24@18
+  - 🇸🇬 SG 20_24@19
+  - 🇨🇳 CN 22_24@21
+  - 🇸🇬 SG 23_24@22
+  - 🇯🇵 JP 24_24@23
+  - 🇨🇳 CN 25_24@24
+  - 🇨🇳 CN 26_24@25
+  - 🇨🇳 TW 27_24@26
+  - 🇨🇳 CN 28_24@27
+  - 🇨🇳 CN 29_24@28
+  - 🇨🇳 CN 30_24@29
+  - 🇨🇳 CN 31_24@30
+  - 🇨🇳 CN 32_24@31
+  - 🇨🇳 CN 34_24@33
+  - 🇨🇳 TW 35_24@34
+  - 🇨🇳 CN 36_24@35
+  - 🇨🇳 TW 37_24@36
+  - 🇨🇳 TW 38_24@37
+  - 🇺🇸 US 39_24@38
+  - 🇨🇳 CN 40_24@39
+  - 🇨🇳 TW 41_24@40
+  - 🇨🇳 TW 42_24@41
+  - 🇨🇳 CN 45_24@44
+  - 🇨🇳 TW 46_24@45
+  - 🇨🇳 CN 47_24@46
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -7208,47 +7278,46 @@ proxy-groups:
   - 🇮🇷_IR_伊朗->🇳🇱_NL_荷兰_23@46
   - 🇺🇸_US_美国->🇯🇵_JP_日本_23@48
   - 🇺🇸_US_美国_15_23@49
-  - 🇳🇱_NL_荷兰_24@4
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1_24@5
-  - 🇨🇭_CH_瑞士_24@6
-  - 🇨🇦_CA_加拿大_24@7
-  - 🇯🇵_JP_日本_1_24@8
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_24@9
-  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_24@10
-  - 🇬🇧_GB_英国_1_24@12
-  - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_24@13
-  - 🇺🇸_US_美国_2_24@14
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_24@15
-  - 🇺🇸_US_美国_3_24@16
-  - 🇺🇸_US_美国_4_24@17
-  - 🇫🇷_FR_法国_1_24@18
-  - 🇬🇧_GB_英国_2_24@20
-  - 🇰🇷_KR_韩国_3_24@23
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_4_24@24
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_24@25
-  - 🇵🇱_PL_波兰_24@26
-  - default_name_24@27
-  - 🇯🇵_JP_日本_2_24@28
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_24@30
-  - 🇺🇸_US_美国_5_24@31
-  - 🇨🇳_CN_中国->🇻🇳_VN_越南_24@33
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_2_24@38
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_5_24@40
-  - 🇫🇷_FR_法国_2_24@44
-  - 🇦🇷_AR_阿根廷_24@45
-  - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_24@46
-  - 🇺🇸_US_美国_13_24@47
-  - 🇨🇳 TW 3_25@2
-  - 🇨🇳 HK 4_25@3
-  - 🇨🇳 HK 5_25@4
-  - 🇰🇷 KR 7_25@6
-  - 🇸🇬 SG 8_25@7
-  - 🇸🇬 SG 10_25@9
-  - 🇸🇬 SG 12_25@11
-  - 🇨🇳 CN 13_25@12
-  - 🇺🇸 US 15_25@14
-  - 🇨🇳 CN 16_25@15
-  - 🇨🇳 CN 17_25@16
+  - 🇨🇳 CN 3_24@2
+  - 🇨🇳 CN 4_24@3
+  - 🇨🇳 TW 5_24@4
+  - 🇨🇳 CN 6_24@5
+  - 🇨🇳 CN 7_24@6
+  - 🇨🇳 CN 8_24@7
+  - 🇨🇳 CN 9_24@8
+  - 🇨🇳 CN 10_24@9
+  - 🇨🇳 CN 11_24@10
+  - 🇨🇳 CN 12_24@11
+  - 🇨🇳 CN 13_24@12
+  - 🇨🇳 CN 14_24@13
+  - 🇨🇳 TW 16_24@15
+  - 🇨🇳 CN 17_24@16
+  - 🇨🇳 CN 18_24@17
+  - 🇨🇳 TW 19_24@18
+  - 🇸🇬 SG 20_24@19
+  - 🇨🇳 CN 22_24@21
+  - 🇸🇬 SG 23_24@22
+  - 🇯🇵 JP 24_24@23
+  - 🇨🇳 CN 25_24@24
+  - 🇨🇳 CN 26_24@25
+  - 🇨🇳 TW 27_24@26
+  - 🇨🇳 CN 28_24@27
+  - 🇨🇳 CN 29_24@28
+  - 🇨🇳 CN 30_24@29
+  - 🇨🇳 CN 31_24@30
+  - 🇨🇳 CN 32_24@31
+  - 🇨🇳 CN 34_24@33
+  - 🇨🇳 TW 35_24@34
+  - 🇨🇳 CN 36_24@35
+  - 🇨🇳 TW 37_24@36
+  - 🇨🇳 TW 38_24@37
+  - 🇺🇸 US 39_24@38
+  - 🇨🇳 CN 40_24@39
+  - 🇨🇳 TW 41_24@40
+  - 🇨🇳 TW 42_24@41
+  - 🇨🇳 CN 45_24@44
+  - 🇨🇳 TW 46_24@45
+  - 🇨🇳 CN 47_24@46
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -7772,47 +7841,46 @@ proxy-groups:
   - 🇮🇷_IR_伊朗->🇳🇱_NL_荷兰_23@46
   - 🇺🇸_US_美国->🇯🇵_JP_日本_23@48
   - 🇺🇸_US_美国_15_23@49
-  - 🇳🇱_NL_荷兰_24@4
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1_24@5
-  - 🇨🇭_CH_瑞士_24@6
-  - 🇨🇦_CA_加拿大_24@7
-  - 🇯🇵_JP_日本_1_24@8
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_24@9
-  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_24@10
-  - 🇬🇧_GB_英国_1_24@12
-  - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_24@13
-  - 🇺🇸_US_美国_2_24@14
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_24@15
-  - 🇺🇸_US_美国_3_24@16
-  - 🇺🇸_US_美国_4_24@17
-  - 🇫🇷_FR_法国_1_24@18
-  - 🇬🇧_GB_英国_2_24@20
-  - 🇰🇷_KR_韩国_3_24@23
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_4_24@24
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_24@25
-  - 🇵🇱_PL_波兰_24@26
-  - default_name_24@27
-  - 🇯🇵_JP_日本_2_24@28
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_24@30
-  - 🇺🇸_US_美国_5_24@31
-  - 🇨🇳_CN_中国->🇻🇳_VN_越南_24@33
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_2_24@38
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_5_24@40
-  - 🇫🇷_FR_法国_2_24@44
-  - 🇦🇷_AR_阿根廷_24@45
-  - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_24@46
-  - 🇺🇸_US_美国_13_24@47
-  - 🇨🇳 TW 3_25@2
-  - 🇨🇳 HK 4_25@3
-  - 🇨🇳 HK 5_25@4
-  - 🇰🇷 KR 7_25@6
-  - 🇸🇬 SG 8_25@7
-  - 🇸🇬 SG 10_25@9
-  - 🇸🇬 SG 12_25@11
-  - 🇨🇳 CN 13_25@12
-  - 🇺🇸 US 15_25@14
-  - 🇨🇳 CN 16_25@15
-  - 🇨🇳 CN 17_25@16
+  - 🇨🇳 CN 3_24@2
+  - 🇨🇳 CN 4_24@3
+  - 🇨🇳 TW 5_24@4
+  - 🇨🇳 CN 6_24@5
+  - 🇨🇳 CN 7_24@6
+  - 🇨🇳 CN 8_24@7
+  - 🇨🇳 CN 9_24@8
+  - 🇨🇳 CN 10_24@9
+  - 🇨🇳 CN 11_24@10
+  - 🇨🇳 CN 12_24@11
+  - 🇨🇳 CN 13_24@12
+  - 🇨🇳 CN 14_24@13
+  - 🇨🇳 TW 16_24@15
+  - 🇨🇳 CN 17_24@16
+  - 🇨🇳 CN 18_24@17
+  - 🇨🇳 TW 19_24@18
+  - 🇸🇬 SG 20_24@19
+  - 🇨🇳 CN 22_24@21
+  - 🇸🇬 SG 23_24@22
+  - 🇯🇵 JP 24_24@23
+  - 🇨🇳 CN 25_24@24
+  - 🇨🇳 CN 26_24@25
+  - 🇨🇳 TW 27_24@26
+  - 🇨🇳 CN 28_24@27
+  - 🇨🇳 CN 29_24@28
+  - 🇨🇳 CN 30_24@29
+  - 🇨🇳 CN 31_24@30
+  - 🇨🇳 CN 32_24@31
+  - 🇨🇳 CN 34_24@33
+  - 🇨🇳 TW 35_24@34
+  - 🇨🇳 CN 36_24@35
+  - 🇨🇳 TW 37_24@36
+  - 🇨🇳 TW 38_24@37
+  - 🇺🇸 US 39_24@38
+  - 🇨🇳 CN 40_24@39
+  - 🇨🇳 TW 41_24@40
+  - 🇨🇳 TW 42_24@41
+  - 🇨🇳 CN 45_24@44
+  - 🇨🇳 TW 46_24@45
+  - 🇨🇳 CN 47_24@46
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -8353,47 +8421,46 @@ proxy-groups:
   - 🇮🇷_IR_伊朗->🇳🇱_NL_荷兰_23@46
   - 🇺🇸_US_美国->🇯🇵_JP_日本_23@48
   - 🇺🇸_US_美国_15_23@49
-  - 🇳🇱_NL_荷兰_24@4
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1_24@5
-  - 🇨🇭_CH_瑞士_24@6
-  - 🇨🇦_CA_加拿大_24@7
-  - 🇯🇵_JP_日本_1_24@8
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_24@9
-  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_24@10
-  - 🇬🇧_GB_英国_1_24@12
-  - 🇨🇳_CN_中国->🇹🇷_TR_土耳其_24@13
-  - 🇺🇸_US_美国_2_24@14
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_1_24@15
-  - 🇺🇸_US_美国_3_24@16
-  - 🇺🇸_US_美国_4_24@17
-  - 🇫🇷_FR_法国_1_24@18
-  - 🇬🇧_GB_英国_2_24@20
-  - 🇰🇷_KR_韩国_3_24@23
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_4_24@24
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_24@25
-  - 🇵🇱_PL_波兰_24@26
-  - default_name_24@27
-  - 🇯🇵_JP_日本_2_24@28
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_24@30
-  - 🇺🇸_US_美国_5_24@31
-  - 🇨🇳_CN_中国->🇻🇳_VN_越南_24@33
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_2_24@38
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_5_24@40
-  - 🇫🇷_FR_法国_2_24@44
-  - 🇦🇷_AR_阿根廷_24@45
-  - 🇨🇳_CN_中国->🇪🇸_ES_西班牙_24@46
-  - 🇺🇸_US_美国_13_24@47
-  - 🇨🇳 TW 3_25@2
-  - 🇨🇳 HK 4_25@3
-  - 🇨🇳 HK 5_25@4
-  - 🇰🇷 KR 7_25@6
-  - 🇸🇬 SG 8_25@7
-  - 🇸🇬 SG 10_25@9
-  - 🇸🇬 SG 12_25@11
-  - 🇨🇳 CN 13_25@12
-  - 🇺🇸 US 15_25@14
-  - 🇨🇳 CN 16_25@15
-  - 🇨🇳 CN 17_25@16
+  - 🇨🇳 CN 3_24@2
+  - 🇨🇳 CN 4_24@3
+  - 🇨🇳 TW 5_24@4
+  - 🇨🇳 CN 6_24@5
+  - 🇨🇳 CN 7_24@6
+  - 🇨🇳 CN 8_24@7
+  - 🇨🇳 CN 9_24@8
+  - 🇨🇳 CN 10_24@9
+  - 🇨🇳 CN 11_24@10
+  - 🇨🇳 CN 12_24@11
+  - 🇨🇳 CN 13_24@12
+  - 🇨🇳 CN 14_24@13
+  - 🇨🇳 TW 16_24@15
+  - 🇨🇳 CN 17_24@16
+  - 🇨🇳 CN 18_24@17
+  - 🇨🇳 TW 19_24@18
+  - 🇸🇬 SG 20_24@19
+  - 🇨🇳 CN 22_24@21
+  - 🇸🇬 SG 23_24@22
+  - 🇯🇵 JP 24_24@23
+  - 🇨🇳 CN 25_24@24
+  - 🇨🇳 CN 26_24@25
+  - 🇨🇳 TW 27_24@26
+  - 🇨🇳 CN 28_24@27
+  - 🇨🇳 CN 29_24@28
+  - 🇨🇳 CN 30_24@29
+  - 🇨🇳 CN 31_24@30
+  - 🇨🇳 CN 32_24@31
+  - 🇨🇳 CN 34_24@33
+  - 🇨🇳 TW 35_24@34
+  - 🇨🇳 CN 36_24@35
+  - 🇨🇳 TW 37_24@36
+  - 🇨🇳 TW 38_24@37
+  - 🇺🇸 US 39_24@38
+  - 🇨🇳 CN 40_24@39
+  - 🇨🇳 TW 41_24@40
+  - 🇨🇳 TW 42_24@41
+  - 🇨🇳 CN 45_24@44
+  - 🇨🇳 TW 46_24@45
+  - 🇨🇳 CN 47_24@46
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
